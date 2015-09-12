@@ -1,7 +1,7 @@
-# RealIM
-Real Time chat plus image sharing application
+# Real IM
+Real Time chat plus picture sharing application
 
-#Real time component implemtation
+#Real time component implementation
 
 I used handler which pool the parse server every 100 millisecond to get the latest messages from parse server.
 
