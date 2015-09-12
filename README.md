@@ -1,5 +1,5 @@
 # Real IM
-Real Time chat plus picture sharing application
+Real Time chat plus picture sharing application.
 
 #Real time component implementation
 
