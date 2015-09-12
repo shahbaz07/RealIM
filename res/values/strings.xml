@@ -1,0 +1,13 @@
+<resources>
+
+    <string name="app_name">Real IM</string>
+    
+    <string name="join_room">Join Room</string>
+    <string name="what_your_name">What is your name</string>
+    <string name="your_name">Your name...</string>
+    <string name="write_something">Write something...</string>
+
+    <string name="dismiss">Dismiss</string>
+    <string name="confirm">Confirm</string>
+    <string name="send">Send</string>
+</resources>
