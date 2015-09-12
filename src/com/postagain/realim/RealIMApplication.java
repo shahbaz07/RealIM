@@ -25,7 +25,8 @@ public class RealIMApplication extends Application {
         Parse.initialize(this, APPLICATION_ID, CLIENT_KEY);
         
         DisplayImageOptions defaultOptions = new DisplayImageOptions.Builder()
-		.cacheOnDisc(true).cacheInMemory(true)
+        .cacheOnDisk(true)
+		.cacheInMemory(true)
 		.imageScaleType(ImageScaleType.EXACTLY)
 		.displayer(new FadeInBitmapDisplayer(300)).build();
 
@@ -33,7 +34,7 @@ public class RealIMApplication extends Application {
 				getApplicationContext())
 				.defaultDisplayImageOptions(defaultOptions)
 				.memoryCache(new WeakMemoryCache())
-				.discCacheSize(100 * 1024 * 1024).build();
+				.diskCacheSize(100 * 1024 * 1024).build();
 		
 		ImageLoader.getInstance().init(config);
     }

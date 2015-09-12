@@ -5,7 +5,6 @@ import android.app.ProgressDialog;
 import android.content.Context;
 import android.os.Bundle;
 import android.os.Handler;
-import android.os.Looper;
 import android.os.Message;
 import android.text.TextUtils;
 import android.view.View;
@@ -19,8 +18,6 @@ import com.parse.ParseAnonymousUtils;
 import com.parse.ParseException;
 import com.parse.ParseUser;
 import com.postagain.realim.R;
-import com.postagain.realim.R.id;
-import com.postagain.realim.R.layout;
 
 public class DialogJoinRoom extends Dialog implements android.view.View.OnClickListener {
 

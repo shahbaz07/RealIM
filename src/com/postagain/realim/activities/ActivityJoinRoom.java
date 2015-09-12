@@ -1,11 +1,5 @@
 package com.postagain.realim.activities;
 
-import com.parse.ParseUser;
-import com.postagain.realim.R;
-import com.postagain.realim.R.id;
-import com.postagain.realim.R.layout;
-import com.postagain.realim.dialog.DialogJoinRoom;
-
 import android.app.Activity;
 import android.content.Intent;
 import android.os.Bundle;
@@ -14,6 +8,10 @@ import android.os.Message;
 import android.view.View;
 import android.view.View.OnClickListener;
 import android.widget.Button;
+
+import com.parse.ParseUser;
+import com.postagain.realim.R;
+import com.postagain.realim.dialog.DialogJoinRoom;
 
 public class ActivityJoinRoom extends Activity implements OnClickListener {
 
